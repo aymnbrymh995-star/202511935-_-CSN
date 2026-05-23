@@ -1,0 +1,36 @@
+#include <iostream>
+
+using namespace std;
+
+int main() {
+    
+    int A[2][2] = {
+        {1, 2},
+        {-3, 1}
+    };
+    int C[2][3] = {
+        {2, 1, 3},
+        {4, 1, 7}
+    };
+    cout << "Matrix A:" << endl;
+
+    for (int i = 0; i < 2; i++) {      
+        for (int j = 0; j < 3; j++) { 
+
+            cout << A [i] [j] << " ";
+        }
+        cout << endl; 
+    }
+    cout << endl; 
+
+    cout << "Matrix C:" << endl;
+
+    for (int i = 0; i < 2; i++) { 
+        for (int j = 0; j < 3; j++) { 
+            cout << C [i] [j] << " ";
+        }
+        cout << endl;
+    }
+
+    return 0;
+}
